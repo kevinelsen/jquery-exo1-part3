@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+   <input type="text" id="compteur">
+   <button id="action">Cliquez ici</button>
+    <script src="jquery-3.2.1.js"></script>
+    <script>
+var stylo = 0;
+$('#action').click(function(){
+  stylo = stylo + 1;
+  $('#compteur').val(stylo);
+});
+    </script>
+  </body>
+</html>
